@@ -1,0 +1,26 @@
+# 忽略 Windows 系统文件
+desktop.ini
+Thumbs.db
+
+# 忽略 Python 相关的缓存、虚拟环境等（如果你以后会用）
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 忽略 IDE 项目文件夹（如果你想保持干净）
+.idea/
+.vscode/
+
+# 忽略你这里的 exe 安装包
+*.exe
+
+# 忽略 Anaconda 文件夹（如果你不希望包含整个 Anaconda 安装）
+/ANACONDA/
+/Git/
+/PyCharm Community Edition 2025.1.3.1/
